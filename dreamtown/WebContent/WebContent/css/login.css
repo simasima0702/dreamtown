@@ -1,0 +1,22 @@
+table{
+	text-align:center;
+	margin-top:50px;
+}
+.footer{
+	text-align:center;
+}
+.login{
+	color:#ffffff;
+}
+.managebutton{
+	width:250px;
+	background-color:#454a51;
+}
+.managebutton:hover{
+	opacity:0.8;
+}
+.errormsg{
+	color:red;
+	text-align:center;
+}
+

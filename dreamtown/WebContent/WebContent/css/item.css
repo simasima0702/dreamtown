@@ -1,0 +1,63 @@
+.h1, h1 {
+	padding-top: 100px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.search-wrapper {
+	float: left;
+	width: 100%;
+}
+.search-wrapper select {
+	width: 15%;
+}
+.search-wrapper input{
+	width: 15%;
+}
+
+.form-select {
+	width: 300px;
+}
+
+.form-submit {
+	width: 100px;
+}
+
+.item-wrapper select {
+	width: 55%;
+}
+
+.form-control {
+	width: 50%;
+	margin: 20px auto;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	width: 100%;
+}
+
+table th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+	background: #000000;
+}
+
+table td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #eee;
+}
+
+img.itemImg {
+	width: 120px;
+	height: 120px;
+}

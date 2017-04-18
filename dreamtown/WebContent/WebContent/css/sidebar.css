@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin:0;
+	_overflow:hidden;
+	padding:0;
+}
+
+#left_frame {
+	background-color: #ccc;
+	height:70%;
+	left:0;
+	margin:0;
+	padding:0;
+	position:fixed;
+	_position:absolute;
+	top:100px;
+	width:160px;
+}
+
+#right_frame {
+	height:70%;
+	margin:0 0 0 170px;
+	_overflow:auto;
+	padding:0;
+}
+
+html, body {
+  height: 93%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* フッタの高さと等しいネガティブマージン */
+  /* また最後の子要素の潜在的なマージンとしても機能 */
+  margin-bottom: -10px;
+}
+.footer,
+.push {
+  height: 20px;
+}
+
+.side{
+	float: left;
+	height: 100%;
+	width: 200px;
+	font-weight: 400;
+	font-size: middle;
+	position: fixed;
+	text-align: center;
+	z-index: 1;
+}
+.terms_of_selection1{
+	background: url("../img/商品一覧へ.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 200px;
+    color: #000000;
+    font-size: large;
+}
+.terms_of_selection2{
+	background: url("../img/ジャンル.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 200px;
+    color: #000000;
+    font-size: large;
+}
+.terms_of_selection3{
+	background: url("../img/知育.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 200px;
+    color: #000000;
+    font-size: large;
+}
+
+
+.menu1{
+	background: url("../img/フィギュア・人形.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu2{
+	background: url("../img/ブロック.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu3{
+	background: url("../img/ままごと.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu4{
+	background: url("../img/プログラミング.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu5{
+	background: url("../img/コミュニケーション.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu6{
+	background: url("../img/感受性.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}
+
+.menu7{
+	background: url("../img/創造力.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 200px;
+}

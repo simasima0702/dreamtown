@@ -1,0 +1,119 @@
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contents-wrapper {
+	max-width: 100%;
+	margin-top: 30px;
+	padding-left: 5%;
+}
+
+.sub-pictures-wrapper {
+	max-width: 15%;
+	min-width: 150px;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	float: left;
+}
+
+.sub-pictures-wrapper li {
+	max-width: 100%;
+	height: 148px;
+	margin: 10% ;
+}
+
+.sub-pictures-wrapper img {
+	max-width: 80%;
+	height: 100%;
+}
+
+.main-picture-wrapper {
+	max-width: 35%;
+	min-width: 300px;
+	height: 480px;
+	float: left;
+	margin: auto 0;
+	text-align: center;
+}
+
+.main-picture-wrapper img {
+	max-width: 100%;
+	height: 100%;
+}
+
+.message-wrapper {
+	max-width: 50%;
+	min-width: 300px;
+	height: auto;
+	float: right;
+}
+
+.new {
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.title {
+	max-width: 80%;
+	height: 25%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	letter-spacing: 5px;
+	font-weight: bold;
+
+}
+
+.detail {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 80%;
+	height: 20%;
+	margin: 0 auto;
+	line-height: 20px;
+}
+
+.detail p {
+	padding-top: 5px;
+	margin-left: 10%;
+	font-size: 16px;
+}
+
+.form-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	clear: both;
+}
+
+.select-wrapper {
+	max-width: 100%;
+	height: 30px;
+	clear: both;
+}
+
+.select-wrapper h4 {
+	margin-right: 5px;
+	leight: auto;
+	float: left;
+}
+
+.select-wrapper select {
+	max-width: 100%;
+	height: auto;
+}
+
+.soldout {
+	max-width: 100%;
+	height: auto;
+}
+
+.clear {
+	clear: both;
+	　 /*floatの解除、ここがポイント*/
+}

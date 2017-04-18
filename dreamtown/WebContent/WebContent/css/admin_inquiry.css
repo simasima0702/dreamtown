@@ -1,0 +1,49 @@
+.center{
+	text-align:center;
+	margin:0 auto;
+
+}
+
+table{
+border-collapse: separate;
+border-spacing:10px 10px;
+}
+
+table td{
+background:#FFFFFF;
+}
+
+table {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+
+/*--お問い合わせ表示-----------------------------*/
+ul.inquiryList {
+    border: 1px solid #b5a199;
+    margin: 1em 0;
+    padding: 0.5em;
+    line-height: 1.2em;
+}
+
+/*Emailで検索フォーム*/
+input#AdminInquiryAction_mailSearch{
+    width:200px;
+    height:30px;
+}
+/*問い合わせ名前で検索フォーム*/
+input#AdminInquiryAction_searchName{
+    width:200px;
+    height:30px;
+}
+/*問い合わせ検索ボタン*/
+input#AdminInquiryAction_0{
+   padding: 0.5em;
+}
+
+/*テーブル内で改行*/
+.display{
+	width:500px; border:1px solid lightgray; word-wrap:break-word;
+}

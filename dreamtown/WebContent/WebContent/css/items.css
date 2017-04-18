@@ -1,0 +1,45 @@
+.contents-wrapper {
+	width: 100%;
+}
+
+.side {
+	width: 19%;
+	float: left;
+	height: 100%;
+}
+
+.page-header {
+	height: 10%;
+}
+
+.form-wrapper {
+	width: 81%;
+	height:100%;
+	text-align: center;
+	float: right;
+}
+
+.form1 {
+	max-width: 27%;
+	min-width: 200px;
+	height: 550px;
+	margin:25px;
+	text-align : left;
+	float: left;
+	text-align: left;
+}
+
+.image {
+	max-width: 100%;
+    height: 80%;
+	border-radius: 10px;
+	/* 	transition: all 0.5s; */
+}
+.image:hover{
+border:3px #88ABDA solid;
+padding:10px 10px 10px 10px;
+}
+.clear {
+	clear: both;
+/* 	　 floatの解除、ここがポイント */
+}

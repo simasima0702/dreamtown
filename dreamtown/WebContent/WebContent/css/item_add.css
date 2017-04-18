@@ -1,0 +1,92 @@
+body {
+	padding-top: 100px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.title-wrapper {
+	width: 60%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+.form-wrapper {
+	width: 80%;
+	margin: 20px auto;
+	border: solid thin #151515;
+	padding-top: 50px;
+	background-color: #E6E6E6
+}
+
+.form-item-wrapper {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 30px;
+	clear: both;
+}
+
+.form-detail-wrapper {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 100px;
+	clear: both;
+}
+.form-detail-wrapper p {
+	width: 45%;
+	margin-right: 5%;
+	font-size: 20px;
+	text-align: right;
+	float: left;
+	height: 100px;
+}
+.form-detail-wrapper texarea {
+	resize: vertical;
+	overflow: auto;
+	height: 100px;
+}
+
+.form-item-wrapper p {
+	width: 45%;
+	margin-right: 5%;
+	font-size: 20px;
+	text-align: right;
+	float: left;
+}
+
+.form-item-wrapper input {
+	width: 35%;
+	margin-right: 15%;
+	float: left;
+}
+
+.form-item-wrapper select {
+	width: 35%;
+	margin-right: 15%;
+	float: left;
+}
+.form-detail-wraper {
+	margin-bottom: 10px;
+	width: 100%;
+	height: 200px;
+	clear: both;
+}
+textarea{
+    resize: none;
+    width: 35%
+
+}
+.form-detail-wrapper p {
+	width: 45%;
+	margin-right: 5%;
+	font-size: 20px;
+	text-align: right;
+	float: left;
+}
+
+.form-submit{
+	padding-bottom: 20px;
+	text-align: center;
+}

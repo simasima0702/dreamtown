@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+.text{
+	text-align: center;
+	align: center;
+}
+
+.carttable{
+	background: url("../img/header_background.gif");
+    background-repeat : no-repeat;
+}
+
+table{
+	text-align: center;
+	margin: 0 auto;
+}
+
+input{
+    text-align: center;
+}
+
+table tr{
+	height: 40px;
+}
+.cart1{
+	text-align: center;
+	width: 200px;
+}
+.cart2{
+	text-align: center;
+	width: 400px;
+}

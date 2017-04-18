@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+		body{
+	  		list-style: none;
+	  		text-align:center;
+	  	}
+	  	.table-wrapper{
+	  		width: 100%;
+	  		margin: 20px auto;
+	  	}
+	  	.table-wrapper p{
+	  		font-size: 16px;
+	  		width: 100%;
+	  	}
+	  	.bottom-wrapper h1{
+	  		padding-bottom: 20px;
+	  	}
+
+	  	.bottom-wrapper p{
+	  		width: 40%;
+	  		float: left;
+	  		font-size: 20px;
+	  		text-align: right;
+	  		margin-right: 10%;
+	  	}
+	  	.bottom-wrapper form{
+	  		width: 40%;
+	  		height: 40%;
+	  		float: left;
+	  		font-size: 20px;
+	  		text-align: left;
+	  		margin-left: 10%;
+	  	}
